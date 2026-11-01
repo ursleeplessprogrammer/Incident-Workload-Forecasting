@@ -11,6 +11,9 @@
 
 This project refactors my Google Apps Script workload-comparison concept into a modular Python application. It counts tickets by category for **every day of the week, Monday through Sunday**, uses the previous four matching weekdays to create a simple forecast, and applies optional adjustments for known conditions such as planned releases or maintenance.
 
+<img width="637" height="509" alt="image" src="https://github.com/user-attachments/assets/f2ef0578-2e50-4f3b-89c4-d1112810e735" />
+
+
 The project also creates a historical week-comparison report and a chart. Its forecasting method is an explainable baseline, not a validated production model. Forecasts should be compared with actual results before being used for operational planning.
 
 ## 🗺️ Contents
