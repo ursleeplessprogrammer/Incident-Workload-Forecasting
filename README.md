@@ -362,18 +362,6 @@ Useful metrics include:
 
 Use a **chronological evaluation**: train or calculate the forecast from earlier dates, then evaluate on later dates. Do not use actual future ticket counts to calculate features for a forecast made in the past. Scikit-learn’s `TimeSeriesSplit` documents a cross-validation approach that avoids training on future observations and evaluating on the past. ([scikit-learn: TimeSeriesSplit](https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.TimeSeriesSplit.html))
 
-## 🚀 Ideas for Improvement
-
-- Add automated backtesting across multiple historical forecast dates.
-- Add forecast-error metrics to the output.
-- Compare the baseline with seasonal naïve, exponential-smoothing, or regression models.
-- Learn condition effects from historical data instead of setting them manually.
-- Add holidays from a maintained calendar source.
-- Add separate forecasts by support team or service.
-- Add prediction intervals to communicate uncertainty.
-- Add data-quality checks for missing dates and unexpected category names.
-- Create a dashboard to compare forecasts with actual workload over time.
-
 ---
 ## 📄 License
 
